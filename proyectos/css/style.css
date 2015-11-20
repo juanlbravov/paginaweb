@@ -1,0 +1,17 @@
+/* Estilo basico  */
+*                    { margin: 0; padding: 0; }
+body                 { font: 16px Georgia, serif; }
+
+#page-wrap           { margin: 2% auto; color: white; } 			/* al rededor de todo */
+#page-wrap > .main   { border: 1px solid #999; padding: 1%; 	/* todos los elementos de la clase main, header, section, footer y nav */
+	                         margin-bottom: 1px; color: black; }
+
+header, nav, section { background: #eee; }	/* diferenciamos los bordes para que se vean mejor */
+section #titulo      { text-align: center; }
+img#imagen           { display: block; 
+	                   margin: auto;
+	                   width: 90%; /* asi tenemos margen en la imagen el 10% que sobra */
+	                   max-height: 410px; /* para que la altura no se pase */
+	                   padding: 5%;} 
+footer               { background: #eee; text-align: center;}
+nav span               { margin: 0px 10px 0px 0px;} /* los elementos de la navegacion  */

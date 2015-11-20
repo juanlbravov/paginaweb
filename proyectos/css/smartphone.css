@@ -1,0 +1,13 @@
+/* media='only screen and (max-width: 480px)'  */
+body             
+	{ background: #333; } 
+/* mas oscuro*/
+#page-wrap:after 
+	{ content: "Smartphone Layout"; }
+/* */
+footer           
+	{ display: none; }
+/* no aparece el footer al no tener espacio */
+body             
+	{ font-size: large; }
+/* para que se vea lo mas grande posible */

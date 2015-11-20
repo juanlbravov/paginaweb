@@ -1,0 +1,15 @@
+/*   carga 1ra style.css y luego este para pantallas de >480px
+     media='only screen and (min-width: 530px) and (min-device-width: 481px)' */
+body { background: #999; }
+
+#page-wrap:after 
+	{ content: "Wide Layout"; } /* añade la barra de abajo que se llama Wide Layout */
+
+nav       { float: left; width: 15%; height: 500px ;} 
+/* la barra de navegacion pasa a la izquierda float anchura 15% menos */
+nav span  { margin: 0px 100px 0px 0px;}	
+/* la navegacion como va a tener 100px de ancho, si no cabe retorna carro*/
+section   { float: right; width: 80%; height: 500px;} 
+/* la seccion pasa a la derecha al flotar sobre nav y ocupa un 80%*/
+footer    { clear: both;  display: block; }
+/* borramos la flotacion para que sea un bloque */
